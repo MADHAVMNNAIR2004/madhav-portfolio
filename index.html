@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Madhav M Nair | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madhav M Nair | Portfolio</title>
+
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <div class="hero">
-    <h1>Madhav M Nair</h1>
-    <p class="tagline">AI & Data Science Student | ML Developer</p>
-    <button onclick="scrollToSection()">View My Work</button>
+<nav class="navbar">
+  <div class="logo">Madhav</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
   </div>
+</nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an AI & Data Science student passionate about Machine Learning,
-      Data Analytics, and building intelligent applications.
-    </p>
-  </section>
+<section class="hero">
+  <img src="profile.jpeg" class="profile-pic">
+  <h1>Madhav M Nair</h1>
+  <p class="tagline">AI & Data Science Student | ML Developer</p>
 
-  <section id="projects">
-    <h2>Projects</h2>
+  <div class="socials">
+    <a href="https://github.com/MADHAVMNNAIR2004" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
 
-    <div class="project-card">
-  <h3>RL Agent for Dungeon Exploration</h3>
-  <p>
-    Designed a Reinforcement Learning agent that explores dungeon environments,
-    learns optimal paths, avoids traps, and maximizes reward using Q-learning.
-  </p>
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am an AI & Data Science student passionate about Machine Learning, Data Analytics and intelligent systems.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skill">Python</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Data Analytics</div>
+<div class="skill">SQL</div>
+<div class="skill">HTML / CSS</div>
+</section>
+
+<section id="projects">
+<h2>Projects I Worked On</h2>
+<div class="project-card">
+<h3>RL Agent for Dungeon Exploration</h3>
+<p>A reinforcement learning agent that learns to explore dungeon environments, avoid traps and maximize reward using Q-learning.</p>
 </div>
 
 <div class="project-card">
-  <h3>Database Management System</h3>
-  <p>
-    Developed a relational DBMS using SQL and Python for managing users,
-    transactions, and records with CRUD operations and authentication.
-  </p>
+<h3>Database Management System</h3>
+<p>A secure SQL and Python based DBMS supporting authentication, CRUD operations and structured data handling.</p>
 </div>
+</section>
 
+<section id="experience">
+<h2>Education & Experience</h2>
+<div class="exp-card">Kendriya Vidyalaya Panvel (Class 1–2)</div>
+<div class="exp-card">Kendriya Vidyalaya Kannur (Class 2–12)</div>
+<div class="exp-card">Amrita Vishwa Vidyapeetham — Integrated MSc Data Analytics (4th Year)</div>
+</section>
 
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: madhav@example.com</p>
-  </section>
-
-<script src="script.js"></script>
 </body>
 </html>
-
-
